@@ -42,6 +42,37 @@ namespace novemob
 				lblLong.Text += posicao.Longitude;
 			}
 
+			//URL de servico free sobre clima
+			string url = "http://api.geonames.org/findNearByWeatherJSON?lat={0}&lng={1}&username=deznetfiap";
+
+			//criando requisição rest
+			HttpClient cliente = new HttpClient();
+
+			//string com os parametros para a URL
+			var uri = new Uri(string.Format(url, new object[] { lblLat.Text, lblLong.Text}));
+
+			//Fazendo um GET no serviço
+			var response = await cliente.GetAsync(uri);
+
+			//Classe para deserializar o retorno
+			TempoResultModel tempo = new TempoResultModel();
+
+			//verificando se o status code é OK
+			if (response.IsSuccessStatusCode)
+			{
+				//pegando o retorno de lendo em async
+				var content = await response.Content.ReadAsStringAsync();
+
+				//deserializando o conteudo para a classe result
+				tempo = JsonConvert.DeserializeObject<TempoResultModel>(content);
+
+				// Apresentando os dados nas labels
+				lblTemp.Text = tempo.weatherObservation.temperature;
+				lblLoc.Text = tempo.weatherObservation.stationName;
+
+
+			}
+
 			//Centralizando mapa na localização
 			map.MoveToRegion(MapSpan.FromCenterAndRadius(
 				new Position(double.Parse(lblLat.Text), double.Parse(lblLong.Text)),
@@ -113,6 +144,7 @@ namespace novemob
 			string sUrl = "https://viacep.com.br/ws/{0}/json/";
 
 			HttpClient client = new HttpClient();
+
 
 			var uri = new Uri(string.Format(sUrl, txtCep.Text));
 

@@ -32,6 +32,12 @@ namespace novemob {
         private global::Xamarin.Forms.Label lblEndereco;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label lblTemp;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label lblLoc;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry txtCep;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -57,6 +63,8 @@ namespace novemob {
             lblLat = this.FindByName <global::Xamarin.Forms.Label>("lblLat");
             lblLong = this.FindByName <global::Xamarin.Forms.Label>("lblLong");
             lblEndereco = this.FindByName <global::Xamarin.Forms.Label>("lblEndereco");
+            lblTemp = this.FindByName <global::Xamarin.Forms.Label>("lblTemp");
+            lblLoc = this.FindByName <global::Xamarin.Forms.Label>("lblLoc");
             txtCep = this.FindByName <global::Xamarin.Forms.Entry>("txtCep");
             txtRua = this.FindByName <global::Xamarin.Forms.Entry>("txtRua");
             txtBairro = this.FindByName <global::Xamarin.Forms.Entry>("txtBairro");

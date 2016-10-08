@@ -20,6 +20,9 @@
 				<Label x:Name="lblLat" WidthRequest="200" TextColor="Black" />
 				<Label x:Name="lblLong" WidthRequest="200" TextColor="Black" />
 				<Label x:Name="lblEndereco" WidthRequest="200" TextColor="Black" />
+
+				<Label x:Name="lblTemp" WidthRequest="200" TextColor="Black" />
+				<Label x:Name="lblLoc" WidthRequest="200" TextColor="Black" />
 				
 				
 				<Entry x:Name="txtCep" WidthRequest="200" 
