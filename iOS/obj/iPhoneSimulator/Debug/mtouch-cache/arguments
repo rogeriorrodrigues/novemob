@@ -50,6 +50,14 @@
 	-r \
 	/Users/rogerio/Projects/novemob/packages/Xamarin.Forms.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
+	/Users/rogerio/Projects/novemob/packages/Xamarin.Forms.Maps.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll \
+	-r \
+	/Users/rogerio/Projects/novemob/packages/Xamarin.Forms.Maps.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll \
+	-r \
+	/Users/rogerio/Projects/novemob/packages/Xam.Plugin.Geolocator.3.0.4/lib/Xamarin.iOS10/Plugin.Geolocator.Abstractions.dll \
+	-r \
+	/Users/rogerio/Projects/novemob/packages/Xam.Plugin.Geolocator.3.0.4/lib/Xamarin.iOS10/Plugin.Geolocator.dll \
+	-r \
 	/Users/rogerio/Projects/novemob/novemob/bin/Debug/novemob.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
@@ -327,6 +335,14 @@
 	/Users/rogerio/Projects/novemob/packages/Xamarin.Forms.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
 	/Users/rogerio/Projects/novemob/packages/Xamarin.Forms.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	-r \
+	/Users/rogerio/Projects/novemob/packages/Xamarin.Forms.Maps.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll \
+	-r \
+	/Users/rogerio/Projects/novemob/packages/Xamarin.Forms.Maps.2.3.2.127/lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll \
+	-r \
+	/Users/rogerio/Projects/novemob/packages/Xam.Plugin.Geolocator.3.0.4/lib/Xamarin.iOS10/Plugin.Geolocator.Abstractions.dll \
+	-r \
+	/Users/rogerio/Projects/novemob/packages/Xam.Plugin.Geolocator.3.0.4/lib/Xamarin.iOS10/Plugin.Geolocator.dll \
 	-r \
 	/Users/rogerio/Projects/novemob/novemob/bin/Debug/novemob.dll \
 	--target-framework \

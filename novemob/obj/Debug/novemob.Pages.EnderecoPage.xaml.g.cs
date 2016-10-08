@@ -17,6 +17,21 @@ namespace novemob {
     public partial class EnderecoPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Maps.Map map;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry txtEndereco;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label lblLat;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label lblLong;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label lblEndereco;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry txtCep;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -37,6 +52,11 @@ namespace novemob {
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(EnderecoPage));
+            map = this.FindByName <global::Xamarin.Forms.Maps.Map>("map");
+            txtEndereco = this.FindByName <global::Xamarin.Forms.Entry>("txtEndereco");
+            lblLat = this.FindByName <global::Xamarin.Forms.Label>("lblLat");
+            lblLong = this.FindByName <global::Xamarin.Forms.Label>("lblLong");
+            lblEndereco = this.FindByName <global::Xamarin.Forms.Label>("lblEndereco");
             txtCep = this.FindByName <global::Xamarin.Forms.Entry>("txtCep");
             txtRua = this.FindByName <global::Xamarin.Forms.Entry>("txtRua");
             txtBairro = this.FindByName <global::Xamarin.Forms.Entry>("txtBairro");

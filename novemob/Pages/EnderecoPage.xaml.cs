@@ -3,18 +3,109 @@ using System.Collections.Generic;
 using System.Net.Http;
 using Newtonsoft.Json;
 using System.Text;
-
-
-
 using Xamarin.Forms;
+
+//Usado para geolocalização
+using Xamarin.Forms.Maps;
+using Plugin.Geolocator;
+
+
+
 
 namespace novemob
 {
+
 	public partial class EnderecoPage : ContentPage
 	{
+		Geocoder geoCoder;
+		
 		public EnderecoPage()
 		{
 			InitializeComponent();
+
+			geoCoder = new Geocoder();
+			//geoloc();
+		}
+
+		async void Handle_Unfocused(object sender, Xamarin.Forms.FocusEventArgs e)
+		{
+
+
+			//transformar endereço em lat e long
+			var localizacaoPossivel = await geoCoder.GetPositionsForAddressAsync(txtEndereco.Text);
+
+			//Pegar a lat e long possivel
+			foreach (var posicao in localizacaoPossivel)
+			{
+
+				lblLat.Text += posicao.Latitude;
+				lblLong.Text += posicao.Longitude;
+			}
+
+			//Centralizando mapa na localização
+			map.MoveToRegion(MapSpan.FromCenterAndRadius(
+				new Position(double.Parse(lblLat.Text), double.Parse(lblLong.Text)),
+				Distance.FromMiles(1)));
+
+			//Criando Pin
+			var pin = new Pin
+			{
+				Type = PinType.Place,
+				Position = new Position(double.Parse(lblLat.Text), double.Parse(lblLong.Text)),
+				Label = "Minha Localização",
+				Address = txtEndereco.Text
+			};
+
+			//Add Pin ao mapa
+			map.Pins.Add(pin);
+
+		}
+
+		async void geoloc()
+		{
+			//Pegar dados atuais de geolocation
+			var locator = CrossGeolocator.Current;
+			locator.DesiredAccuracy = 100;
+
+			var position = await locator.GetPositionAsync(1000);
+
+			string latitude = position.Latitude.ToString();
+			string longitude = position.Longitude.ToString();
+
+
+			//transformar lat e long em endereço
+			var enderecoPossivel = await geoCoder.GetAddressesForPositionAsync(
+				new Position(position.Latitude, position.Longitude));
+
+			//Pegar o endereço possivel e exibir na label
+			foreach (var endereco in enderecoPossivel)
+			{
+				lblEndereco.Text += endereco + "\n";
+			}
+
+			//Centralizando mapa na localização
+			map.MoveToRegion(MapSpan.FromCenterAndRadius(
+				new Position(position.Latitude, position.Longitude), 
+				Distance.FromMiles(1)));
+			
+			//Criando Pin
+			var pin = new Pin { 
+				Type = PinType.Place,
+				Position = new Position(position.Latitude, position.Longitude),
+				Label = "Minha Localização",
+				Address = lblEndereco.Text
+			};
+
+			//Add Pin ao mapa
+			map.Pins.Add(pin);
+
+
+
+
+			lblLat.Text = latitude;
+			lblLong.Text = longitude;
+
+			
 		}
 
 		async void buscaCep(object sender, Xamarin.Forms.FocusEventArgs e)

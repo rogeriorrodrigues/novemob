@@ -1,8 +1,11 @@
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Runtime.Serialization.dll
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.ServiceModel.Internals.dll
+/Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Plugin.Geolocator.dll
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.Forms.Platform.iOS.dll
+/Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.Forms.Maps.iOS.dll
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.Forms.Platform.dll
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Acr.Support.iOS.dll
+/Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.Forms.Maps.dll
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Splat.dll
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Xml.Linq.dll
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.dll
@@ -11,13 +14,14 @@
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Acr.UserDialogs.Interface.dll
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Core.dll
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.Forms.Xaml.dll
+/Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Plugin.Geolocator.Abstractions.dll
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/novemob.dll
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/mscorlib.dll
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.Forms.Core.dll
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Newtonsoft.Json.dll
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Mono.CSharp.dll
-/Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Microsoft.CSharp.dll
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/novemob.iOS.exe
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Acr.UserDialogs.dll
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Net.Http.dll
 /Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Mono.Dynamic.Interpreter.dll
+/Users/rogerio/Projects/novemob/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Microsoft.CSharp.dll

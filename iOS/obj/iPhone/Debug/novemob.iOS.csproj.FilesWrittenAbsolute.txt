@@ -13,3 +13,13 @@
 /Users/rogerio/Projects/novemob/iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.dll
 /Users/rogerio/Projects/novemob/iOS/bin/iPhone/Debug/novemob.dll
 /Users/rogerio/Projects/novemob/iOS/bin/iPhone/Debug/novemob.dll.mdb
+/Users/rogerio/Projects/novemob/iOS/obj/iPhone/Debug/build-iphone7.2-10.0.2/optimized/
+/Users/rogerio/Projects/novemob/iOS/bin/iPhone/Debug/Acr.Support.iOS.dll
+/Users/rogerio/Projects/novemob/iOS/bin/iPhone/Debug/Splat.dll
+/Users/rogerio/Projects/novemob/iOS/bin/iPhone/Debug/Newtonsoft.Json.dll
+/Users/rogerio/Projects/novemob/iOS/bin/iPhone/Debug/Acr.UserDialogs.dll
+/Users/rogerio/Projects/novemob/iOS/bin/iPhone/Debug/Acr.UserDialogs.Interface.dll
+/Users/rogerio/Projects/novemob/iOS/bin/iPhone/Debug/Xamarin.Forms.Maps.dll
+/Users/rogerio/Projects/novemob/iOS/bin/iPhone/Debug/Xamarin.Forms.Maps.iOS.dll
+/Users/rogerio/Projects/novemob/iOS/bin/iPhone/Debug/Plugin.Geolocator.Abstractions.dll
+/Users/rogerio/Projects/novemob/iOS/bin/iPhone/Debug/Plugin.Geolocator.dll

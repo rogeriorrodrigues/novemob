@@ -25,3 +25,6 @@
 /Users/rogerio/Projects/novemob/novemob/bin/Debug/System.Net.Http.Extensions.dll
 /Users/rogerio/Projects/novemob/novemob/bin/Debug/System.Net.Http.Primitives.dll
 /Users/rogerio/Projects/novemob/novemob/bin/Debug/Newtonsoft.Json.dll
+/Users/rogerio/Projects/novemob/novemob/bin/Debug/Plugin.Geolocator.Abstractions.dll
+/Users/rogerio/Projects/novemob/novemob/bin/Debug/Plugin.Geolocator.dll
+/Users/rogerio/Projects/novemob/novemob/bin/Debug/Xamarin.Forms.Maps.dll

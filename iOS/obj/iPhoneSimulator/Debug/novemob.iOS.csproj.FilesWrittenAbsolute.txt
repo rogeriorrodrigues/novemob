@@ -18,3 +18,7 @@
 /Users/rogerio/Projects/novemob/iOS/bin/iPhoneSimulator/Debug/Acr.UserDialogs.dll
 /Users/rogerio/Projects/novemob/iOS/bin/iPhoneSimulator/Debug/Acr.UserDialogs.Interface.dll
 /Users/rogerio/Projects/novemob/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/rogerio/Projects/novemob/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.dll
+/Users/rogerio/Projects/novemob/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.iOS.dll
+/Users/rogerio/Projects/novemob/iOS/bin/iPhoneSimulator/Debug/Plugin.Geolocator.Abstractions.dll
+/Users/rogerio/Projects/novemob/iOS/bin/iPhoneSimulator/Debug/Plugin.Geolocator.dll

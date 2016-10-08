@@ -1,16 +1,15 @@
 ﻿<Properties StartupConfiguration="{735D9A12-8159-4FF0-AFBE-36DB5104E29F}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="novemob/Pages/EnderecoPage.xaml.cs">
     <Files>
-      <File FileName="novemob/Pages/EnderecoPage.xaml.cs" Line="22" Column="40" />
-      <File FileName="novemob/Models/CepResult.cs" Line="14" Column="24" />
-      <File FileName="novemob/App.xaml.cs" Line="1" Column="1" />
-      <File FileName="novemob/Pages/LoginPage.xaml.cs" Line="32" Column="4" />
-      <File FileName="novemob/Pages/DadosPage.xaml.cs" Line="16" Column="1" />
+      <File FileName="novemob/Pages/DadosPage.xaml.cs" Line="14" Column="3" />
+      <File FileName="novemob/Pages/EnderecoPage.xaml.cs" Line="62" Column="31" />
+      <File FileName="iOS/AppDelegate.cs" Line="18" Column="21" />
+      <File FileName="iOS/Info.plist" />
       <File FileName="iOS/Main.cs" Line="17" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.novemob.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C06A852D-3451-4690-A6A7-05E2D104364E" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.novemob.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.4dcede833b7532039965ea5c380dfe3553cfcf2b" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
