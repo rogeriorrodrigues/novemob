@@ -22,3 +22,9 @@
 /Users/rogerio/Projects/novemob/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.iOS.dll
 /Users/rogerio/Projects/novemob/iOS/bin/iPhoneSimulator/Debug/Plugin.Geolocator.Abstractions.dll
 /Users/rogerio/Projects/novemob/iOS/bin/iPhoneSimulator/Debug/Plugin.Geolocator.dll
+/Users/rogerio/Projects/novemob/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
+/Users/rogerio/Projects/novemob/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.sqlite3.dll
+/Users/rogerio/Projects/novemob/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/rogerio/Projects/novemob/iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
+/Users/rogerio/Projects/novemob/iOS/bin/iPhoneSimulator/Debug/SQLitePCL.raw.dll
+/Users/rogerio/Projects/novemob/iOS/bin/iPhoneSimulator/Debug/SQLitePCL.batteries.dll

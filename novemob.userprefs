@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{735D9A12-8159-4FF0-AFBE-36DB5104E29F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="novemob/ViewModels/MainPageViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="novemob/App.xaml.cs">
     <Files>
       <File FileName="novemob/Models/BaseItem.cs" Line="11" Column="20" />
-      <File FileName="novemob/Models/Person.cs" Line="13" Column="22" />
-      <File FileName="novemob/Models/Database.cs" Line="124" Column="7" />
+      <File FileName="novemob/Models/Person.cs" Line="21" Column="13" />
+      <File FileName="novemob/Models/Database.cs" Line="69" Column="17" />
       <File FileName="novemob/ViewModels/BaseViewModel.cs" Line="16" Column="12" />
-      <File FileName="novemob/ViewModels/MainPageViewModel.cs" Line="2" Column="7" />
+      <File FileName="novemob/ViewModels/MainPageViewModel.cs" Line="46" Column="31" />
+      <File FileName="novemob/Pages/MainPage.xaml.cs" Line="14" Column="1" />
+      <File FileName="novemob/App.xaml.cs" Line="12" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.novemob.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C06A852D-3451-4690-A6A7-05E2D104364E" />

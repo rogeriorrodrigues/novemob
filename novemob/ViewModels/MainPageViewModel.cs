@@ -26,6 +26,26 @@ namespace novemob
 
 		public MainPageViewModel()
 		{
+			AddCommand = new Command(Add);
+			DeleteCommand = new Command(Delete);
+			DeleteAllCommand = new Command(DeleteAll);
+			GenderCommand = new Command(FilterByGender);
+			AgeFilterCommand = new Command(FilterByAge);
+
+			/// <summary>
+			/// Criar database com o nome peopler
+			/// </summary>
+			database = new Database("People");
+			/// <summary>
+			/// criar table com o nome Person
+			/// </summary>
+			database.CreateTable<Person>();
+
+			Records = new ObservableCollection<string>();
+			/// <summary>
+			/// carregar todos os itens
+			/// </summary>
+			ShowAllRecords();
 		}
 
 		void Add()

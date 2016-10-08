@@ -28,3 +28,10 @@
 /Users/rogerio/Projects/novemob/novemob/bin/Debug/Plugin.Geolocator.Abstractions.dll
 /Users/rogerio/Projects/novemob/novemob/bin/Debug/Plugin.Geolocator.dll
 /Users/rogerio/Projects/novemob/novemob/bin/Debug/Xamarin.Forms.Maps.dll
+/Users/rogerio/Projects/novemob/novemob/obj/Debug/novemob.Pages.MainPage.xaml
+/Users/rogerio/Projects/novemob/novemob/obj/Debug/novemob.Pages.MainPage.xaml.g.cs
+/Users/rogerio/Projects/novemob/novemob/bin/Debug/SQLitePCLRaw.core.dll
+/Users/rogerio/Projects/novemob/novemob/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/rogerio/Projects/novemob/novemob/bin/Debug/SQLite-net.dll
+/Users/rogerio/Projects/novemob/novemob/bin/Debug/SQLitePCL.raw.dll
+/Users/rogerio/Projects/novemob/novemob/bin/Debug/SQLitePCL.batteries.dll
